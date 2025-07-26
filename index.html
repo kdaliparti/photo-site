@@ -8,6 +8,9 @@
     .gallery img { max-width: 300px; margin: 10px; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.2); }
     .gallery { display: flex; flex-wrap: wrap; justify-content: center; }
   </style>
+  <script>
+    document.addEventListener("contextmenu", e => e.preventDefault());
+  </script>
 </head>
 <body>
   <h1>📸 My Photo Gallery</h1>
@@ -16,11 +19,8 @@
     <img src="photo2.jpg" alt="Photo 2">
     <img src="photo3.jpg" alt="Photo 3">
   </div>
-</body>
-<footer>
+  <footer>
     © 2025 Kavi Daliparti. All photos are copyrighted. Please do not copy or use without permission.
-</footer> 
-<script>
-    document.addEventListener("contextmenu", e => e.preventDefault());
-</script>
+  </footer>
+</body>
 </html>
